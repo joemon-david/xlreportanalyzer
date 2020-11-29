@@ -19,7 +19,7 @@ public class ExcelReader implements ConfigData {
 
     private  String getFormulaValue(FormulaEvaluator evaluator, Cell cell)
     {
-        CellType cellType = null;
+        CellType cellType ;
         try {
             cellType = evaluator.evaluateFormulaCell(cell);
         } catch (FormulaParseException e) {
@@ -46,27 +46,45 @@ public class ExcelReader implements ConfigData {
                 throw new RuntimeException("Unexpected celltype (" + cellType + ")");
         }
     }
+    public  LinkedHashMap<Integer, LinkedHashMap<String,Object>> readAllDataFromExcelFile(String filePath, String sheetName, int maxCellToCheck) {
 
-    public  LinkedHashMap<Integer, LinkedHashMap<String,Object>> readAllDataFromExcelFile(String filePath, String sheetName, int maxCellToCheck)
+        return readAllDataFromExcelFile(filePath, sheetName,  maxCellToCheck,0);
+    }
+
+    public  LinkedHashMap<Integer, LinkedHashMap<String,Object>> readAllDataFromExcelFile(String filePath, String sheetName, int maxCellToCheck,int numberOfRowsToSkip)
     {
         LinkedHashMap<Integer,LinkedHashMap<String,Object>> excelDataMap = null;
         try {
 
             FileInputStream excelFile = new FileInputStream(new File(filePath));
-
             Workbook workbook = (SELECTED_FORMAT == FILE_FORMAT.XLSX)?new XSSFWorkbook(excelFile) :new HSSFWorkbook(excelFile);
 
             FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
             excelDataMap = new LinkedHashMap<>();
             LinkedHashMap<Integer,String> headerMap = new LinkedHashMap<>();
             int recordNumber=0;
-
+            int dataIndex=0;
             Sheet datatypeSheet = workbook.getSheet(sheetName);
-
             for (Row currentRow : datatypeSheet) {
+                boolean isHeaderRow = false;
+                if(recordNumber<numberOfRowsToSkip)
+                {
+                    recordNumber++;
+                    continue;
+                }else if(recordNumber==numberOfRowsToSkip)
+                {
+                    for (int columnNumber =0;columnNumber<maxCellToCheck;columnNumber++) {
 
+                        Cell currentCell = currentRow.getCell(columnNumber);
+                        if (null != currentCell) {
+                            String sValue = currentCell.getStringCellValue();
+                            headerMap.put(columnNumber, sValue);
+                        }
+                    }
+                    recordNumber++;
+                    continue;
+                }
                 LinkedHashMap<String, Object> rowDataMap = new LinkedHashMap<>();
-
                 for (int columnNumber =0;columnNumber<maxCellToCheck;columnNumber++) {
 
                     Cell currentCell = currentRow.getCell(columnNumber);
@@ -76,16 +94,9 @@ public class ExcelReader implements ConfigData {
                         continue;
                     }
 
-
-
-
-
                     if (currentCell.getCellType() == CellType.STRING) {
                         String sValue = currentCell.getStringCellValue();
-                        if (recordNumber == 0)
-                            headerMap.put(columnNumber, sValue);
-                        else
-                            rowDataMap.put(headerMap.get(columnNumber), sValue);
+                        rowDataMap.put(headerMap.get(columnNumber), sValue);
                     } else if (currentCell.getCellType() == CellType.NUMERIC) {
                         if (HSSFDateUtil.isCellDateFormatted(currentCell)) {
                             String dtValue = sdf.format(currentCell.getDateCellValue());
@@ -106,12 +117,14 @@ public class ExcelReader implements ConfigData {
                     {
                         rowDataMap.put(headerMap.get(columnNumber),"");
                     }
-
-
                 }
-                if (recordNumber > 0)
-                    excelDataMap.put(recordNumber, rowDataMap);
+
+
+                    excelDataMap.put(dataIndex, rowDataMap);
+                    dataIndex++;
+
                 recordNumber++;
+
 
             }
 
@@ -130,13 +143,13 @@ public class ExcelReader implements ConfigData {
     public static void main(String[] args) {
 
         String masterFilePath = COMPARE_REPORT_DIR_PATH+"JumboReport_GetAccountPosition_23Oct2020.xlsx";
-        String masterSheetName = "FULL MISMATCHES 1";
-        LinkedHashMap<Integer, LinkedHashMap<String, Object>> s = new ExcelReader().readAllDataFromExcelFile(masterFilePath,masterSheetName,200);
-//        for(Integer index:s.keySet()){
-//            LinkedHashMap<String, Object> rowData = s.get(index);
-//            rowData.forEach((key,value)-> System.out.println(key+" has data type as "+ TypeIdentifier.getDataTypes(value.toString())));
-//            break;
-//                }
+        String masterSheetName = "FULL MISMATCHES 1";//"REPORT SUMMARY";
+        LinkedHashMap<Integer, LinkedHashMap<String, Object>> s = new ExcelReader().readAllDataFromExcelFile(masterFilePath,masterSheetName,12,0);
+        for(Integer index:s.keySet()){
+            LinkedHashMap<String, Object> rowData = s.get(index);
+            rowData.forEach((key,value)-> System.out.println(key+" has data type as "+ TypeIdentifier.getDataTypes(value.toString())));
+            break;
+                }
 
     }
 

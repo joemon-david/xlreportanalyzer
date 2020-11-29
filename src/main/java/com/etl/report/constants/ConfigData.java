@@ -1,7 +1,7 @@
 package com.etl.report.constants;
 
 public interface ConfigData {
-    enum FILE_FORMAT {XLS,XLSX};
+    enum FILE_FORMAT {XLS,XLSX}
     String EXCEL_DATE_FORMAT = "M/dd/yyyy";
     FILE_FORMAT SELECTED_FORMAT = FILE_FORMAT.XLSX;
     String COMPARE_FILE_TYPE = "FIleType";
@@ -15,7 +15,10 @@ public interface ConfigData {
     String COMPARE_SRC_DIR_PATH = "data/input/compare/source/";
     String COMPARE_TARGET_DIR_PATH = "data/input/compare/target/";
     String COMPARE_REPORT_DIR_PATH = "data/input/compare/report/";
+    String COMPARE_REPORT_OUTPUT_PATH ="data//output//excelReport.xlsx";
     String COMPARE_REPORT_SHEET_NAME = "FULL MISMATCHES 1";
+    String COMPARE_REPORT_SHEET_NAME_ADDED = "FULL MISMATCHES 1 UPDATED";
+    String COMPARE_REPORT_SUMMARY_SHEET_NAME = "REPORT SUMMARY";
     String COMPARE_RESULT_PASSED = "PASS";
     String COMPARE_RESULT_FAILED= "FAIL";
     String COMPARE_RESULT_MATCHED= "MATCH";
@@ -29,5 +32,9 @@ public interface ConfigData {
     String COMPARE_COMP_POSTFIX="_C";
     String COMPARE_FINAL_RESULT_POSTFIX="_Final_Results";
     String COMPARE_DEVIATION_POSTFIX="_Deviation%";
+    String COMPARE_MATCH_COUNT_FINAL = "Match Count_Final";
+    String COMPARE_DIFF_COUNT_FINAL = "Diff Count_Final";
+    String COMPARE_SRC_COLUMN_NULL_COUNT = "SourceColumnNullCount";
+    String COMPARE_TAR_COLUMN_NULL_COUNT = "TargetColumnNullCount";
 
 }

@@ -2,6 +2,7 @@ package com.etl.report.utils.dataobjects;
 
 import com.etl.report.business.LogTester;
 import com.etl.report.constants.ConfigData;
+import com.etl.report.dto.ReportSummaryData;
 import com.etl.report.utils.common.CommonUtils;
 import com.etl.report.utils.common.NumericUtils;
 import com.etl.report.utils.common.TypeIdentifier;
@@ -19,9 +20,9 @@ public class DataExtractor implements ConfigData {
     public LinkedHashSet<String> getUniqueColumnList(LinkedHashMap<Integer, LinkedHashMap<String, Object>> sheetData, String headerName) {
         LinkedHashSet<String> columnData = new LinkedHashSet<>();
 
-        sheetData.forEach((index, rowData) -> {
-            columnData.add(rowData.get(headerName).toString());
-        });
+        sheetData.forEach((index, rowData) ->
+            columnData.add(rowData.get(headerName).toString())
+        );
         return columnData;
     }
 
@@ -52,9 +53,6 @@ public class DataExtractor implements ConfigData {
 
     public LinkedHashMap<String, LinkedHashMap<String, String>> getSrcMappingList(LinkedHashMap<Integer, LinkedHashMap<String, Object>> s, ArrayList<String> fileTypeToRunList, String targetColumn) {
         LinkedHashMap<String, LinkedHashMap<String, String>> srcTargetColumnMapList = new LinkedHashMap<String, LinkedHashMap<String, String>>();
-        /**
-         * By using this logic we are expecting that the source column having unique column names across all the fileTypes.
-         */
         for (String fileType : fileTypeToRunList) {
             LinkedHashSet<String> srcList = getConditionalColumnValueList(s, COMPARE_FILE_TYPE, fileType, COMPARE_SRC_COLUMN);
             LinkedHashMap<String, String> columnMap = new LinkedHashMap<>();
@@ -79,10 +77,15 @@ public class DataExtractor implements ConfigData {
         return appendedMap;
     }
 
+    private String replacePostfix(String text,String replace,String postfix)
+    {
+        return text.replace(replace,postfix);
+    }
+
     public LinkedHashMap<String, String> analyzeRowAndAddResult(LinkedHashMap<String, Object> rowData, LinkedHashMap<String, String> srcTargetColumnMap, LinkedHashMap<String, String> srcTransLogicMap) {
         LinkedHashMap<String, String> analyzedData = new LinkedHashMap<String, String>();
         LinkedHashMap<String, String> sourceTargetMap = appendSrcTargetColumnWithPostFix(srcTargetColumnMap, false);
-        LinkedHashMap<String, String> transLogicMap = appendSrcTargetColumnWithPostFix(srcTransLogicMap, false);
+        LinkedHashMap<String, String> transLogicMap = appendSrcTargetColumnWithPostFix(srcTransLogicMap, true);
         /**
          * Iterate through all the column of the Row passed and checks whether the column is to be analysed
          * and to add the comparison and final results
@@ -90,19 +93,27 @@ public class DataExtractor implements ConfigData {
         for (String column : rowData.keySet()) {
 
             if (sourceTargetMap.containsKey(column) && !analyzedData.containsKey(column)) {
-                logger.debug("Match found " + column);
+//                logger.debug("Match found " + column);
                 String value1 = rowData.get(column).toString();
                 String value2 = rowData.get(sourceTargetMap.get(column)).toString();
                 String cVal = null, finalResult = null, deviation = null;
                 boolean isKnownDifferance = false;
                 String transLogic = transLogicMap.get(column);
+                String transLogicType = CommonUtils.extractTransLogicType(transLogic);
+//                logger.debug("Trans Logic Type found as "+transLogicType);
                 Double allowedTolerance = 0.0;
                 if (null == transLogic)
                     allowedTolerance = 0.0;
-                else if (CommonUtils.extractTransLogicType(transLogic).equalsIgnoreCase(COMPARE_TRANS_LOGIC_TOLERANCE))
+                else if (transLogicType.equalsIgnoreCase(COMPARE_TRANS_LOGIC_TOLERANCE))
+                {
                     allowedTolerance = Double.parseDouble(CommonUtils.extractTransLogicValue(transLogic).toString());
-                else if (CommonUtils.extractTransLogicType(transLogic).equalsIgnoreCase(COMPARE_TRANS_LOGIC_KNOWN_DIFF))
+//                    logger.debug("Allowed tolerance for the column "+column+"  found as "+allowedTolerance);
+                }
+                else if (transLogicType.equalsIgnoreCase(COMPARE_TRANS_LOGIC_KNOWN_DIFF))
+                {
                     isKnownDifferance = true;
+//                    logger.debug("Known Difference is set for the column "+column);
+                }
 
                 if (value1.equalsIgnoreCase(value2)) {
                     cVal = (TypeIdentifier.getDataTypes(value1) == TypeIdentifier.DATA_TYPES.DOUBLE) ? "0.0" : COMPARE_RESULT_MATCHED;
@@ -127,21 +138,57 @@ public class DataExtractor implements ConfigData {
                 analyzedData.put(column,rowData.get(column)+"");
                 String targetHeader = sourceTargetMap.get(column);
                 analyzedData.put(targetHeader,rowData.get(targetHeader)+"");
-                analyzedData.put(column+COMPARE_COMP_POSTFIX,cVal);
+                String cHeader = replacePostfix(column,COMPARE_SOURCE_POSTFIX,COMPARE_COMP_POSTFIX);
+                analyzedData.put(cHeader,cVal);
                 if(null!= deviation)
-                    analyzedData.put(column+COMPARE_DEVIATION_POSTFIX,deviation);
-                analyzedData.put(column+COMPARE_FINAL_RESULT_POSTFIX,finalResult);
+                {
+                    String deviationHeader = replacePostfix(column,COMPARE_SOURCE_POSTFIX,COMPARE_DEVIATION_POSTFIX);
+                    analyzedData.put(deviationHeader,deviation);
+                }
+                String fResultHeader = replacePostfix(column,COMPARE_SOURCE_POSTFIX,COMPARE_FINAL_RESULT_POSTFIX);
+                analyzedData.put(fResultHeader,finalResult);
 
 
             } else if (!analyzedData.containsKey(column)) {
-                logger.debug(column + " is not required to be analysed");
-                analyzedData.put(column, rowData.get(column)+"");
+//                logger.debug(column + " is not required to be analysed");
+//                analyzedData.put(column, rowData.get(column)+"");
             }
 
 
         }
 
         return analyzedData;
+
+    }
+
+
+    public ReportSummaryData createSummaryData(LinkedHashMap<String, String> srcTargetColumnMap , LinkedHashMap<Integer, LinkedHashMap<String, String>> outputReportData )
+    {
+        ReportSummaryData summaryData = new ReportSummaryData();
+
+        for(int row:outputReportData.keySet())
+        {
+            LinkedHashMap<String, String> rowData = outputReportData.get(row);
+            for(String srcKey:srcTargetColumnMap.keySet())
+            {
+                String resultColumn = srcKey+COMPARE_FINAL_RESULT_POSTFIX;
+                Object result = rowData.get(resultColumn);
+                if(result == null)
+                {
+//                logger.debug("There is no entry Corresponding  to "+resultColumn);
+                    continue;
+                }
+                else if(result.toString().equalsIgnoreCase(COMPARE_RESULT_PASSED))
+                {
+                    summaryData.passPlusOne(srcKey);
+                }else if(result.toString().equalsIgnoreCase(COMPARE_RESULT_FAILED))
+                {
+                    summaryData.failPlusOne(srcKey);
+                }
+            }
+        }
+
+        return summaryData;
 
     }
 

@@ -1,6 +1,7 @@
 package com.etl.report.business;
 
 import com.etl.report.constants.ConfigData;
+import com.etl.report.dto.ReportSummaryData;
 import com.etl.report.utils.dataobjects.DataExtractor;
 import com.etl.report.utils.excel.ExcelReader;
 import com.etl.report.utils.excel.ExcelWriter;
@@ -20,6 +21,7 @@ public class ReportAnalyzer implements ConfigData {
     public void analyzeReportAndCreateFinalSummary(String mappingFile,String sheetName,String fileTypeToRun) throws IOException {
         DataExtractor extractor = new DataExtractor();
         ExcelReader xlReader = new ExcelReader();
+        ExcelWriter xlWriter = new ExcelWriter();
         String mappingFilePath = COMPARE_MAPPING_DIR_PATH+mappingFile;
         //mapping data object is created by reading the mapping and other configuration from the mapping xlsx file.
         LinkedHashMap<Integer, LinkedHashMap<String, Object>> mappingData = xlReader.readAllDataFromExcelFile(mappingFilePath,sheetName,15);
@@ -58,11 +60,13 @@ public class ReportAnalyzer implements ConfigData {
             for(Integer rowNumber:reportData.keySet())
             {
                 LinkedHashMap<String, Object> existingData = reportData.get(rowNumber);
+                // Each Row will be analysed to add more info
                 LinkedHashMap<String, String> analyzedData = extractor.analyzeRowAndAddResult(existingData,srcTargetColumnMap,srcTransLogicMap);
                 outputReportData.put(rowNumber,analyzedData);
             }
-            new ExcelWriter().writeDataToExcelSheet("data//output//excelReport.xlsx",outputReportData,fileType);
-
+            xlWriter.writeFullMatchesSheetToReport(reportFilePath,COMPARE_REPORT_OUTPUT_PATH,outputReportData,COMPARE_REPORT_SHEET_NAME_ADDED);
+            ReportSummaryData reportSummaryData = extractor.createSummaryData(srcTargetColumnMap,outputReportData);
+            new ExcelWriter().editReportSummaryPageWithAnalyzeData(COMPARE_REPORT_OUTPUT_PATH,COMPARE_REPORT_OUTPUT_PATH,srcTransLogicMap,reportSummaryData);
         }
 
     }
