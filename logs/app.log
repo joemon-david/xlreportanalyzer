@@ -1,0 +1,2095 @@
+2020-11-29 01:56:36,868 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 01:56:36,878 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,443 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,445 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,453 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,463 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,465 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,473 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,483 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,499 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,515 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,530 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] S.No is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found AsOfDate_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found DataSource_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Units_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Diff is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Nsp_Account_Id_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Account_Symbol_Key is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Src_Sec_Id_Key is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found sds_id_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Price_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Diffe_ is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Market_Price_C is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Difference is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Diff  in % is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Status is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Func_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Rpt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Diff  In % is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Market_Value_Amt_Lcl_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Diff in % is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found WeightFunc_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Value_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Ticker_Symbol_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Func_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Rpt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Diff 1% is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found AccruedIncome_Lcl_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Diff in 1% is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecIdtype_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] SecIdtype_Z is not required to be analysed
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SecClassId_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Contract_size_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Trading_Units_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Custom_Sec_Ind_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Amort_Price_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Reconciled_Flg_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Func_Currency_Id_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_MarketValue_Local_Currency_Id_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_Local_Currency_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Income_local_Currency_Id_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Short_Term_Flg_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Account_Nbr_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Dup_Account_Symbol_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Major_Issue_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Minor_Issue_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Is_Active_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Valid_Start_Dt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Inc_Curr_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Originating_Principal_Curr_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISSUE_TYPE_CD_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SCREEN_GRP_CD_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Functional_Currency_Cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Func_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Src_Futures_GainLoss_Amt_Rpt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Swap_Ind_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Primary_Spread_Type_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Effective_Spread_Type_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl1_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl2_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_cd_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Sec_class_Lvl3_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LIN_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SRC_LOANXID_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found CINS_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found CUSIP_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBUNIQUE_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found ISIN_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL1_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found SEDOL2_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found TICKER_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXCHANGE_CD_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_FUNC_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found PARAMOUNT_RPT_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found TKR_AND_EXCH_CD_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Func_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Rpt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found BookValue_Lcl_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Func_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Rpt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found Cost_Lcl_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found OPS_Notional_Amt_Curr_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found IDBBGLOBAL_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_FUNC_S
+2020-11-29 02:00:54,546 DEBUG c.e.r.u.d.DataExtractor [main] Match found EXPOSURE_LCL_S
