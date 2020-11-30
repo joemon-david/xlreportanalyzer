@@ -11,6 +11,7 @@ public interface ConfigData {
     String COMPARE_TAR_COLUMN = "TargetColumn";
     String COMPARE_PRIMARY_KEY = "Primarykey";
     String COMPARE_TRANSF_LOGIC = "Tranformation Logic";
+    String COMPARE_END_USER_ACCEPTED="EndUserAccepted";
     String COMPARE_MAPPING_DIR_PATH = "data/input/compare/mapping/";
     String COMPARE_SRC_DIR_PATH = "data/input/compare/source/";
     String COMPARE_TARGET_DIR_PATH = "data/input/compare/target/";

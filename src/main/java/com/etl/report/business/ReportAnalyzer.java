@@ -49,11 +49,13 @@ public class ReportAnalyzer implements ConfigData {
          */
         LinkedHashMap<String, LinkedHashMap<String, String>> srcTargetColumnMapList = extractor.getSrcMappingList(mappingData, fileTypeToRunList,COMPARE_TAR_COLUMN);
         LinkedHashMap<String,LinkedHashMap<String, String>> srcTransLogicMapList = extractor.getSrcMappingList(mappingData, fileTypeToRunList,COMPARE_TRANSF_LOGIC);
+        LinkedHashMap<String,LinkedHashMap<String, String>> endUserAcceptedMapList = extractor.getSrcMappingList(mappingData, fileTypeToRunList,ConfigData.COMPARE_END_USER_ACCEPTED);
 
         for(String fileType:fileTypeToRunList)
         {
             LinkedHashMap<String, String> srcTargetColumnMap = srcTargetColumnMapList.get(fileType);
             LinkedHashMap<String, String> srcTransLogicMap = srcTransLogicMapList.get(fileType);
+            LinkedHashMap<String, String> endUserAcceptedMap = endUserAcceptedMapList.get(fileType);
             String reportFilePath = COMPARE_REPORT_DIR_PATH+extractor.getConditionalColumnValue(mappingData,COMPARE_FILE_TYPE,fileType,COMPARE_SRC_FILE);
             LinkedHashMap<Integer, LinkedHashMap<String, Object>> reportData = xlReader.readAllDataFromExcelFile(reportFilePath,COMPARE_REPORT_SHEET_NAME,200);
             LinkedHashMap<Integer, LinkedHashMap<String, String>> outputReportData = new LinkedHashMap<Integer, LinkedHashMap<String, String>>();
@@ -66,7 +68,7 @@ public class ReportAnalyzer implements ConfigData {
             }
             xlWriter.writeFullMatchesSheetToReport(reportFilePath,COMPARE_REPORT_OUTPUT_PATH,outputReportData,COMPARE_REPORT_SHEET_NAME_ADDED);
             ReportSummaryData reportSummaryData = extractor.createSummaryData(srcTargetColumnMap,outputReportData);
-            new ExcelWriter().editReportSummaryPageWithAnalyzeData(COMPARE_REPORT_OUTPUT_PATH,COMPARE_REPORT_OUTPUT_PATH,srcTransLogicMap,reportSummaryData);
+            new ExcelWriter().editReportSummaryPageWithAnalyzeData(COMPARE_REPORT_OUTPUT_PATH,COMPARE_REPORT_OUTPUT_PATH,srcTransLogicMap,reportSummaryData,endUserAcceptedMap);
         }
 
     }

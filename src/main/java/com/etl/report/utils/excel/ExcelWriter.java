@@ -41,7 +41,7 @@ public class ExcelWriter implements ConfigData {
 
     }
 
-    public void editReportSummaryPageWithAnalyzeData(String inputFilePath,String outPutFilePath, LinkedHashMap<String, String> srcTransLogicMap, ReportSummaryData summaryData) throws IOException {
+    public void editReportSummaryPageWithAnalyzeData(String inputFilePath, String outPutFilePath, LinkedHashMap<String, String> srcTransLogicMap, ReportSummaryData summaryData, LinkedHashMap<String, String> endUserAcceptedMap) throws IOException {
         FileInputStream inStream = new FileInputStream(new File(inputFilePath));
         Workbook workbook = new XSSFWorkbook(inStream);
         Map<String, CellStyle> styles = createStyles(workbook);
@@ -65,18 +65,21 @@ public class ExcelWriter implements ConfigData {
                 currentRow.createCell(lastIndex+1).setCellValue(COMPARE_TRANS_LOGIC_KNOWN_DIFF);
                 currentRow.getCell(lastIndex+1).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+1,5000);
-                currentRow.createCell(lastIndex+2).setCellValue(COMPARE_MATCH_COUNT_FINAL);
+                currentRow.createCell(lastIndex+2).setCellValue(COMPARE_END_USER_ACCEPTED);
                 currentRow.getCell(lastIndex+2).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+2,5000);
-                currentRow.createCell(lastIndex+3).setCellValue(COMPARE_DIFF_COUNT_FINAL);
+                currentRow.createCell(lastIndex+3).setCellValue(COMPARE_MATCH_COUNT_FINAL);
                 currentRow.getCell(lastIndex+3).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+3,5000);
-                currentRow.createCell(lastIndex+4).setCellValue(COMPARE_SRC_COLUMN_NULL_COUNT);
+                currentRow.createCell(lastIndex+4).setCellValue(COMPARE_DIFF_COUNT_FINAL);
                 currentRow.getCell(lastIndex+4).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+4,5000);
-                currentRow.createCell(lastIndex+5).setCellValue(COMPARE_TAR_COLUMN_NULL_COUNT);
+                currentRow.createCell(lastIndex+5).setCellValue(COMPARE_SRC_COLUMN_NULL_COUNT);
                 currentRow.getCell(lastIndex+5).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+5,5000);
+                currentRow.createCell(lastIndex+6).setCellValue(COMPARE_TAR_COLUMN_NULL_COUNT);
+                currentRow.getCell(lastIndex+6).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+6,5000);
 
             }else
             {
@@ -93,16 +96,19 @@ public class ExcelWriter implements ConfigData {
                     allowedTolerance = Double.parseDouble(CommonUtils.extractTransLogicValue(transLogic).toString());
                 else if (transLogicType.equalsIgnoreCase(COMPARE_TRANS_LOGIC_KNOWN_DIFF))
                     isKnownDifferance = true;
+                String endUserAccepted = endUserAcceptedMap.containsKey(srcKey)?endUserAcceptedMap.get(srcKey):"";
+
 
 
                 currentRow.createCell(lastIndex).setCellValue(checkNull(allowedTolerance));
                 currentRow.createCell(lastIndex+1).setCellValue(checkNull(isKnownDifferance));
+                currentRow.createCell(lastIndex+2).setCellValue(checkNull(endUserAccepted));
                 long totalMatchCount = (summaryData.getTotalMatchCountMap().containsKey(srcKey))?summaryData.getTotalMatchCountMap().get(srcKey):0;
-                currentRow.createCell(lastIndex+2).setCellValue(totalMatchCount);
+                currentRow.createCell(lastIndex+3).setCellValue(totalMatchCount);
                 long totalDiffCount = (summaryData.getTotalDiffCountMap().containsKey(srcKey))?summaryData.getTotalDiffCountMap().get(srcKey):0;
-                currentRow.createCell(lastIndex+3).setCellValue(totalDiffCount);
-                currentRow.createCell(lastIndex+4).setCellValue("NA");
+                currentRow.createCell(lastIndex+4).setCellValue(totalDiffCount);
                 currentRow.createCell(lastIndex+5).setCellValue("NA");
+                currentRow.createCell(lastIndex+6).setCellValue("NA");
             }
             rowNum++;
 
