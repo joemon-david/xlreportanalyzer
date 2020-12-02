@@ -2,6 +2,7 @@ package com.etl.report.utils.excel;
 
 import com.etl.report.constants.ConfigData;
 import com.etl.report.utils.common.TypeIdentifier;
+import com.monitorjbl.xlsx.StreamingReader;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.formula.FormulaParseException;
@@ -11,6 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.LinkedHashMap;
 
@@ -56,10 +58,16 @@ public class ExcelReader implements ConfigData {
         LinkedHashMap<Integer,LinkedHashMap<String,Object>> excelDataMap = null;
         try {
 
-            FileInputStream excelFile = new FileInputStream(new File(filePath));
-            Workbook workbook = (SELECTED_FORMAT == FILE_FORMAT.XLSX)?new XSSFWorkbook(excelFile) :new HSSFWorkbook(excelFile);
+//            FileInputStream excelFile = new FileInputStream(new File(filePath));
+            InputStream in = new FileInputStream(new File(filePath));
+            Workbook workbook = StreamingReader.builder()
+                    .rowCacheSize(100)
+                    .bufferSize(4096)
+                    .open(in);
 
-            FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
+//            Workbook workbook = (SELECTED_FORMAT == FILE_FORMAT.XLSX)?new XSSFWorkbook(excelFile) :new HSSFWorkbook(excelFile);
+
+//            FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
             excelDataMap = new LinkedHashMap<>();
             LinkedHashMap<Integer,String> headerMap = new LinkedHashMap<>();
             int recordNumber=0;
@@ -112,7 +120,10 @@ public class ExcelReader implements ConfigData {
                     }
                     else if(currentCell.getCellType() == CellType.FORMULA)
                     {
-                        rowDataMap.put(headerMap.get(columnNumber),getFormulaValue(evaluator,currentCell));
+                        String sValue = currentCell.getStringCellValue();
+                        rowDataMap.put(headerMap.get(columnNumber), sValue);
+//                        System.out.println("Cell Type found as Formula for "+currentCell);
+//                        rowDataMap.put(headerMap.get(columnNumber),getFormulaValue(evaluator,currentCell));
                     }else if (currentCell.getCellType() == CellType.BLANK)
                     {
                         rowDataMap.put(headerMap.get(columnNumber),"");

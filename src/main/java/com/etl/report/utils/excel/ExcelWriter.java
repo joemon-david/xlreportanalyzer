@@ -162,26 +162,55 @@ public class ExcelWriter implements ConfigData {
             headerIndex++;
         }
 
-
-        for(int index: tableData.keySet())
+        int totalRows = tableData.size();
+        int iteration = totalRows/10;
+        logger.debug("totalRows - "+totalRows+", iteration "+iteration);
+        for(int i =1;i<11;i++)
         {
-            Row rw = sheet.createRow(index+1);
-            HashMap<String,String> data = tableData.get(index);
-            AtomicInteger cellIndex= new AtomicInteger();
-            data.forEach((key,value) -> {
-                Cell cw = rw.createCell(cellIndex.getAndIncrement());
-                cw.setCellValue(value);
-                if(value.equalsIgnoreCase(COMPARE_RESULT_PASSED))
-                    cw.setCellStyle(styles.get("cell_passed"));
-                else if(value.equalsIgnoreCase(COMPARE_RESULT_FAILED))
-                    cw.setCellStyle(styles.get("cell_failed"));
-                else
-                    cw.setCellStyle(styles.get("cell_normal_centered"));
+            int startIndex = (iteration*i)-iteration;
+            int endIndex = (i==10)?(iteration*i)+(totalRows%10):(iteration*i);
 
-            });
+            logger.debug("startIndex - "+startIndex+", endIndex "+endIndex);
+            for(int index = startIndex;index<endIndex;index++)
+            {
+                Row rw = sheet.createRow(index+1);
+                HashMap<String,String> data = tableData.get(index);
+                AtomicInteger cellIndex= new AtomicInteger();
+                data.forEach((key,value) -> {
+                    Cell cw = rw.createCell(cellIndex.getAndIncrement());
+                    cw.setCellValue(value);
+                    if(value.equalsIgnoreCase(COMPARE_RESULT_PASSED))
+                        cw.setCellStyle(styles.get("cell_passed"));
+                    else if(value.equalsIgnoreCase(COMPARE_RESULT_FAILED))
+                        cw.setCellStyle(styles.get("cell_failed"));
+                    else
+                        cw.setCellStyle(styles.get("cell_normal_centered"));
+
+                });
 
 
+            }
         }
+
+//        for(int index: tableData.keySet())
+//        {
+//            Row rw = sheet.createRow(index+1);
+//            HashMap<String,String> data = tableData.get(index);
+//            AtomicInteger cellIndex= new AtomicInteger();
+//            data.forEach((key,value) -> {
+//                Cell cw = rw.createCell(cellIndex.getAndIncrement());
+//                cw.setCellValue(value);
+//                if(value.equalsIgnoreCase(COMPARE_RESULT_PASSED))
+//                    cw.setCellStyle(styles.get("cell_passed"));
+//                else if(value.equalsIgnoreCase(COMPARE_RESULT_FAILED))
+//                    cw.setCellStyle(styles.get("cell_failed"));
+//                else
+//                    cw.setCellStyle(styles.get("cell_normal_centered"));
+//
+//            });
+//
+//
+//        }
 
         FileOutputStream fo = new FileOutputStream(outPutFilePath);
         workbook.write(fo);

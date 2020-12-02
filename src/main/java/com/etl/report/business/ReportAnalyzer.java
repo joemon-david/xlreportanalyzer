@@ -58,7 +58,7 @@ public class ReportAnalyzer implements ConfigData {
             LinkedHashMap<String, String> endUserAcceptedMap = endUserAcceptedMapList.get(fileType);
             String reportFilePath = COMPARE_REPORT_DIR_PATH+extractor.getConditionalColumnValue(mappingData,COMPARE_FILE_TYPE,fileType,COMPARE_SRC_FILE);
             LinkedHashMap<Integer, LinkedHashMap<String, Object>> reportData = xlReader.readAllDataFromExcelFile(reportFilePath,COMPARE_REPORT_SHEET_NAME,200);
-            LinkedHashMap<Integer, LinkedHashMap<String, String>> outputReportData = new LinkedHashMap<Integer, LinkedHashMap<String, String>>();
+            LinkedHashMap<Integer, LinkedHashMap<String, String>> outputReportData = new LinkedHashMap<>();
             for(Integer rowNumber:reportData.keySet())
             {
                 LinkedHashMap<String, Object> existingData = reportData.get(rowNumber);
