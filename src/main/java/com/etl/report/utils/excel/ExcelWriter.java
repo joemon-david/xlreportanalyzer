@@ -4,17 +4,16 @@ import com.etl.report.constants.ConfigData;
 import com.etl.report.dto.ReportSummaryData;
 import com.etl.report.utils.common.CommonUtils;
 import com.etl.report.utils.dataobjects.DataExtractor;
+import com.monitorjbl.xlsx.StreamingReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFColor;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -33,20 +32,61 @@ public class ExcelWriter implements ConfigData {
     public void writeFullMatchesSheetToReport(String inputFilePath,String outPutFilePath, LinkedHashMap<Integer, LinkedHashMap<String,String>> tableData, String sheetName) throws IOException {
 
 
-        FileInputStream inStream = new FileInputStream(new File(inputFilePath));
-        Workbook workbook = new XSSFWorkbook(inStream);
+//        FileInputStream inStream = new FileInputStream(new File(inputFilePath));
+//        Workbook workbook = new XSSFWorkbook(inStream);
+        Workbook workbook = new SXSSFWorkbook(100);
+//        InputStream in = new FileInputStream(new File(inputFilePath));
+//        Workbook workbook = StreamingReader.builder()
+//                .rowCacheSize(100)
+//                .bufferSize(4096)
+//                .open(in);
+
         updateFullMatchDataToWorkbook(outPutFilePath, tableData, sheetName, workbook);
-        inStream.close();
+//        in.close();
         return;
 
+    }
+
+    private SXSSFWorkbook createSXSSFWorkbookFromFile(Workbook workbook)
+    {
+        SXSSFWorkbook wb = new SXSSFWorkbook(100);
+        ExcelHelper helper = new ExcelHelper();
+        FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
+
+        for(Sheet sheet:workbook)
+        {
+            Sheet sh = wb.createSheet(sheet.getSheetName());
+            for(int rowNum=0; rowNum<=sheet.getLastRowNum();rowNum++)
+            {
+
+                Row row = sheet.getRow(rowNum);
+                if(row==null)
+                    break;
+                Row rw = sh.createRow(rowNum);
+                for(int cellNo=0;cellNo<=row.getLastCellNum();cellNo++)
+                {
+                    Cell currentCell = row.getCell(cellNo);
+                    Cell newCell = rw.createCell(cellNo);
+
+                    String newCellValue = (currentCell==null)?"":helper.getCellValueAsString(currentCell,evaluator);
+
+                }
+
+            }
+
+        }
+
+        return wb;
     }
 
     public void editReportSummaryPageWithAnalyzeData(String inputFilePath, String outPutFilePath, LinkedHashMap<String, String> srcTransLogicMap, ReportSummaryData summaryData, LinkedHashMap<String, String> endUserAcceptedMap) throws IOException {
         FileInputStream inStream = new FileInputStream(new File(inputFilePath));
         Workbook workbook = new XSSFWorkbook(inStream);
+//        Workbook workbook = createSXSSFWorkbookFromFile(new XSSFWorkbook(inStream));
         Map<String, CellStyle> styles = createStyles(workbook);
         FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
         Sheet datatypeSheet = workbook.getSheet(COMPARE_REPORT_SUMMARY_SHEET_NAME);
+
         int rowNum =0;
         for (Row currentRow : datatypeSheet)
         {
@@ -213,7 +253,9 @@ public class ExcelWriter implements ConfigData {
 //        }
 
         FileOutputStream fo = new FileOutputStream(outPutFilePath);
+        logger.debug("Beginning to write the workbook ......");
         workbook.write(fo);
+        logger.debug("Completed writing the workbook!!!!");
         workbook.close();
         fo.close();
     }

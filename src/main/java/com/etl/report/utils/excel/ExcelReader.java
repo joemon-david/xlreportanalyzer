@@ -140,9 +140,8 @@ public class ExcelReader implements ConfigData {
             }
 
             System.out.println("Scanning Completed ->Total Records "+recordNumber);
-            System.out.print("Header values -> ");
-            headerMap.forEach((key,value)-> System.out.print(value+","));
-            System.out.println();
+//            System.out.print("Header values -> ");
+
         } catch (IOException e) {
             e.printStackTrace();
         }

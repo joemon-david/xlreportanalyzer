@@ -16,7 +16,8 @@ public interface ConfigData {
     String COMPARE_SRC_DIR_PATH = "data/input/compare/source/";
     String COMPARE_TARGET_DIR_PATH = "data/input/compare/target/";
     String COMPARE_REPORT_DIR_PATH = "data/input/compare/report/";
-    String COMPARE_REPORT_OUTPUT_PATH ="data//output//excelReport.xlsx";
+    String COMPARE_REPORT_OUTPUT_PATH ="data//output//FullReport.xlsx";
+    String COMPARE_REPORT_SUMMARY_PATH ="data//output//summaryReport.xlsx";
     String COMPARE_REPORT_SHEET_NAME = "FULL MISMATCHES 1";
     String COMPARE_REPORT_SHEET_NAME_ADDED = "FULL MISMATCHES 1 UPDATED";
     String COMPARE_REPORT_SUMMARY_SHEET_NAME = "REPORT SUMMARY";
