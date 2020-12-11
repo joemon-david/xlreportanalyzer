@@ -5,6 +5,8 @@ public class CommonUtils {
     public static  String extractTransLogicType(String entry)
     {
 
+        if(entry == null)
+            return "";
         String transType = (null!=entry  && !entry.isEmpty() && entry.contains("("))?entry.substring(0,entry.indexOf('(')):entry;
         return transType;
     }

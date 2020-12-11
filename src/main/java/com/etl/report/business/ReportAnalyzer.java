@@ -18,7 +18,7 @@ public class ReportAnalyzer implements ConfigData {
     private static final Logger logger = LogManager.getLogger(ReportAnalyzer.class);
 
     public static void main(String[] args) throws IOException {
-        new ReportAnalyzer().analyzeReportAndCreateFinalSummary("Mapping.xlsx","Config","Positions");
+        new ReportAnalyzer().analyzeReportAndCreateFinalSummary("Mapping.xlsx","Config","Source");
     }
 
     public void analyzeReportAndCreateFinalSummary(String mappingFile,String sheetName,String fileTypeToRun) throws IOException {
@@ -44,6 +44,8 @@ public class ReportAnalyzer implements ConfigData {
             fileTypeToRunList.addAll(Arrays.asList(fileTypeToRun.split(",")));
         else
             fileTypeToRunList.add(fileTypeToRun);
+
+        logger.debug("******** File Types to Run are "+fileTypeToRunList);
 
         /**
          * srcTargetColumnMapList contains the mapping between the source and target excel columns of all the fileTypes.
