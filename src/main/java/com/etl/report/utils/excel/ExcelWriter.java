@@ -305,6 +305,9 @@ public class ExcelWriter implements ConfigData {
 
         for(String key:tableData.get(0).keySet())
         {
+            if(key==null)
+                continue;
+
             Cell cell = headerRow.createCell(headerIndex);
             cell.setCellValue(key);
 //            int mod = headerIndex% 5;

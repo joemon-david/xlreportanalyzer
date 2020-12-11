@@ -94,8 +94,8 @@ public class DataExtractor implements ConfigData {
 
             if (sourceTargetMap.containsKey(column) && !analyzedData.containsKey(column)) {
 //                logger.debug("Match found " + column);
-                String value1 = rowData.get(column).toString();
-                String value2 = rowData.get(sourceTargetMap.get(column)).toString();
+                String value1 = (null!=rowData.get(column))?rowData.get(column).toString():"";
+                String value2 = (null!=rowData.get(sourceTargetMap.get(column)))?rowData.get(sourceTargetMap.get(column)).toString():"";
                 String cVal = null, finalResult = null, deviation = null;
                 boolean isKnownDifferance = false;
                 String transLogic = transLogicMap.get(column);

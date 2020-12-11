@@ -18,7 +18,7 @@ public class ReportAnalyzer implements ConfigData {
     private static final Logger logger = LogManager.getLogger(ReportAnalyzer.class);
 
     public static void main(String[] args) throws IOException {
-        new ReportAnalyzer().analyzeReportAndCreateFinalSummary("Mapping.xlsx","Config","Source");
+        new ReportAnalyzer().analyzeReportAndCreateFinalSummary("Mapping.xlsx","Config","P_GetSecurityPrice");
     }
 
     public void analyzeReportAndCreateFinalSummary(String mappingFile,String sheetName,String fileTypeToRun) throws IOException {
