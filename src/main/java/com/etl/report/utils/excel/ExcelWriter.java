@@ -22,6 +22,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ExcelWriter implements ConfigData {
 
     private static final Logger logger = LogManager.getLogger(ExcelWriter.class);
+    ExcelHelper helper = new ExcelHelper();
     public  void writeDataToExcelSheet(String outPutFilePath, LinkedHashMap<Integer, LinkedHashMap<String,String>> tableData, String sheetName) throws IOException {
 
         Workbook workbook = new XSSFWorkbook();
@@ -82,10 +83,12 @@ public class ExcelWriter implements ConfigData {
     public void editReportSummaryPageWithAnalyzeData(String inputFilePath, String outPutFilePath, LinkedHashMap<String, String> srcTransLogicMap, ReportSummaryData summaryData, LinkedHashMap<String, String> endUserAcceptedMap) throws IOException {
         FileInputStream inStream = new FileInputStream(new File(inputFilePath));
         Workbook workbook = new XSSFWorkbook(inStream);
+
 //        Workbook workbook = createSXSSFWorkbookFromFile(new XSSFWorkbook(inStream));
         Map<String, CellStyle> styles = createStyles(workbook);
         FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
         Sheet datatypeSheet = workbook.getSheet(COMPARE_REPORT_SUMMARY_SHEET_NAME);
+        logger.debug("Iterating through each Row on "+COMPARE_REPORT_SUMMARY_SHEET_NAME+" sheet");
 
         int rowNum =0;
         for (Row currentRow : datatypeSheet)
@@ -153,12 +156,129 @@ public class ExcelWriter implements ConfigData {
             rowNum++;
 
         }
+
+        logger.debug("Completed the Iteration through each Row on "+COMPARE_REPORT_SUMMARY_SHEET_NAME+" sheet");
         inStream.close();
         FileOutputStream fo = new FileOutputStream(outPutFilePath);
+        logger.debug("Start writing the summary report into the physical file");
         workbook.write(fo);
         workbook.close();
         fo.close();
+        logger.debug("Completed  writing the summary report into the physical file");
     }
+
+
+    private Row copyRowData(Sheet newSheet,int rowNum,Row existingRow,FormulaEvaluator evaluator)
+    {
+
+        Row newRow = newSheet.createRow(rowNum);
+        int CellNo=0;
+        for(Cell cell:existingRow)
+        {
+            Cell newCell = newRow.createCell(CellNo,cell.getCellType());
+            String cValue = helper.getCellValueAsString(cell,evaluator);
+            newCell.setCellValue(cValue);
+            CellNo++;
+        }
+
+        return newRow;
+    }
+
+    public void editReportSummaryPageWithAnalyzeDataNew(String inputFilePath, String outPutFilePath, LinkedHashMap<String, String> srcTransLogicMap, ReportSummaryData summaryData, LinkedHashMap<String, String> endUserAcceptedMap) throws IOException {
+        FileInputStream inStream = new FileInputStream(new File(inputFilePath));
+        Workbook workbookIn = new XSSFWorkbook(inStream);
+
+        Workbook workbook = new SXSSFWorkbook();
+        Map<String, CellStyle> styles = createStyles(workbook);
+        FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
+        Sheet datatypeSheet = workbookIn.getSheet(COMPARE_REPORT_SUMMARY_SHEET_NAME);
+        Sheet sheet = workbook.createSheet(COMPARE_REPORT_SUMMARY_SHEET_NAME);
+        logger.debug("Iterating through each Row on "+COMPARE_REPORT_SUMMARY_SHEET_NAME+" sheet");
+
+        int rowNum =0;
+        for (Row row : datatypeSheet)
+        {
+
+            Row currentRow = copyRowData(sheet,rowNum,row,evaluator);
+            int lastIndex =currentRow.getLastCellNum();
+            if(rowNum ==0)
+            {
+                rowNum++;
+                continue;
+            }else if(rowNum ==1)
+            {
+
+
+                currentRow.createCell(lastIndex).setCellValue(COMPARE_TRANS_LOGIC_TOLERANCE);
+                currentRow.getCell(lastIndex).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex,5000);
+                currentRow.createCell(lastIndex+1).setCellValue(COMPARE_TRANS_LOGIC_KNOWN_DIFF);
+                currentRow.getCell(lastIndex+1).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+1,5000);
+                currentRow.createCell(lastIndex+2).setCellValue(COMPARE_END_USER_ACCEPTED);
+                currentRow.getCell(lastIndex+2).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+2,5000);
+                currentRow.createCell(lastIndex+3).setCellValue(COMPARE_MATCH_COUNT_FINAL);
+                currentRow.getCell(lastIndex+3).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+3,5000);
+                currentRow.createCell(lastIndex+4).setCellValue(COMPARE_DIFF_COUNT_FINAL);
+                currentRow.getCell(lastIndex+4).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+4,5000);
+                currentRow.createCell(lastIndex+5).setCellValue(COMPARE_SRC_COLUMN_NULL_COUNT);
+                currentRow.getCell(lastIndex+5).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+5,5000);
+                currentRow.createCell(lastIndex+6).setCellValue(COMPARE_TAR_COLUMN_NULL_COUNT);
+                currentRow.getCell(lastIndex+6).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+6,5000);
+
+            }else
+            {
+                String srcKey = currentRow.getCell(1).getStringCellValue();
+                if(null==srcKey || srcKey.isEmpty())
+                {
+                    logger.debug("The Source Column in the Report data at Row Number "+rowNum+" is Empty So breaking the further analysis");
+                    break;
+                }
+                String transLogic = srcTransLogicMap.get(srcKey);
+                String transLogicType = CommonUtils.extractTransLogicType(transLogic);
+                Object allowedTolerance = null,isKnownDifferance=null;
+                if (transLogicType.equalsIgnoreCase(COMPARE_TRANS_LOGIC_TOLERANCE))
+                    allowedTolerance = Double.parseDouble(CommonUtils.extractTransLogicValue(transLogic).toString());
+                else if (transLogicType.equalsIgnoreCase(COMPARE_TRANS_LOGIC_KNOWN_DIFF))
+                    isKnownDifferance = true;
+                String endUserAccepted = endUserAcceptedMap.containsKey(srcKey)?endUserAcceptedMap.get(srcKey):"";
+
+
+
+                currentRow.createCell(lastIndex).setCellValue(checkNull(allowedTolerance));
+                currentRow.createCell(lastIndex+1).setCellValue(checkNull(isKnownDifferance));
+                currentRow.createCell(lastIndex+2).setCellValue(checkNull(endUserAccepted));
+                long totalMatchCount = (summaryData.getTotalMatchCountMap().containsKey(srcKey))?summaryData.getTotalMatchCountMap().get(srcKey):0;
+                currentRow.createCell(lastIndex+3).setCellValue(totalMatchCount);
+                long totalDiffCount = (summaryData.getTotalDiffCountMap().containsKey(srcKey))?summaryData.getTotalDiffCountMap().get(srcKey):0;
+                currentRow.createCell(lastIndex+4).setCellValue(totalDiffCount);
+                currentRow.createCell(lastIndex+5).setCellValue("NA");
+                currentRow.createCell(lastIndex+6).setCellValue("NA");
+            }
+            rowNum++;
+
+        }
+
+        logger.debug("Completed the Iteration through each Row on "+COMPARE_REPORT_SUMMARY_SHEET_NAME+" sheet");
+        inStream.close();
+        FileOutputStream fo = new FileOutputStream(outPutFilePath);
+        logger.debug("Start writing the summary report into the physical file");
+        workbook.write(fo);
+        workbook.close();
+        fo.close();
+        logger.debug("Completed  writing the summary report into the physical file");
+    }
+
+
+
+
+
+
 
     private String checkNull(Object value)
     {

@@ -47,9 +47,10 @@ public class ExcelHelper implements ConfigData {
         CellType cellType ;
         try {
             cellType = evaluator.evaluateFormulaCell(cell);
-        } catch (FormulaParseException e) {
+        } catch (Exception e ) {
 //            System.out.println(e.getCause());
-            return cell.getRichStringCellValue().getString();
+//            return cell.getRichStringCellValue().getString();
+            return "";
         }
 
         switch (cellType) {

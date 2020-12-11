@@ -75,9 +75,14 @@ public class ReportAnalyzer implements ConfigData {
             logger.debug("Completed the analysis of the data and is ready for write into an excel file ");
             xlWriter.writeFullMatchesSheetToReport(reportFilePath,COMPARE_REPORT_OUTPUT_PATH,outputReportData,COMPARE_REPORT_SHEET_NAME_ADDED);
             logger.debug("Completed writing of the data into an excel file at "+COMPARE_REPORT_OUTPUT_PATH);
+            /**
+             * ReportSummaryData object holds the statistics of Pass and Fail count of each column
+             */
             ReportSummaryData reportSummaryData = extractor.createSummaryData(srcTargetColumnMap,outputReportData);
+            logger.debug("Started writing Summary into an excel file at  "+COMPARE_REPORT_OUTPUT_PATH);
             new ExcelWriter().editReportSummaryPageWithAnalyzeData(reportFilePath,COMPARE_REPORT_SUMMARY_PATH,srcTransLogicMap,reportSummaryData,endUserAcceptedMap);
             logger.debug("Completed writing Summary into an excel file at "+COMPARE_REPORT_SUMMARY_PATH);
+            
         }
 
     }

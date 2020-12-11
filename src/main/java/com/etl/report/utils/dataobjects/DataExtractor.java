@@ -151,7 +151,7 @@ public class DataExtractor implements ConfigData {
 
             } else if (!analyzedData.containsKey(column)) {
 //                logger.debug(column + " is not required to be analysed");
-//                analyzedData.put(column, rowData.get(column)+"");
+                analyzedData.put(column, rowData.get(column)+"");
             }
 
 
