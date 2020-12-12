@@ -74,15 +74,17 @@ public class ExcelHelper implements ConfigData {
     }
 
     public static void main(String[] args) throws IOException {
-        String inputFile ="data//output//excelReport.xlsx";
-        FileInputStream inStream = new FileInputStream(new File(inputFile));
-        Workbook workbook = new XSSFWorkbook(inStream);
-        Sheet s =workbook.createSheet("NewSheet3");
-        s.createRow(0).createCell(0).setCellValue("This is a new Cell");
-        inStream.close();
-        FileOutputStream outputStream = new FileOutputStream(new File("data//output//excelReport2.xlsx"));
-        workbook.write(outputStream);
-        outputStream.close();
+        String inputFile ="Custom_Sec_In_S";
+        String prefix = "_S";
+        String replaceW ="_FinalResult";
+
+        System.out.println(inputFile.replace(prefix,replaceW));
+
+        String trimmed = inputFile.substring(0,inputFile.lastIndexOf(prefix));
+        System.out.println(trimmed);
+        System.out.println(trimmed+replaceW);
+
+
 
     }
 }

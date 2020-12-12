@@ -150,8 +150,10 @@ public class ExcelWriter implements ConfigData {
                 currentRow.createCell(lastIndex+3).setCellValue(totalMatchCount);
                 long totalDiffCount = (summaryData.getTotalDiffCountMap().containsKey(srcKey))?summaryData.getTotalDiffCountMap().get(srcKey):0;
                 currentRow.createCell(lastIndex+4).setCellValue(totalDiffCount);
-                currentRow.createCell(lastIndex+5).setCellValue("NA");
-                currentRow.createCell(lastIndex+6).setCellValue("NA");
+                String srcNullCount = (null ==summaryData.getTotalSourceNullCountMap().get(srcKey))?"0":summaryData.getTotalSourceNullCountMap().get(srcKey)+"";
+                currentRow.createCell(lastIndex+5).setCellValue(srcNullCount);
+                String targetNullCount =(null == summaryData.getTotalTargetNullCountMap().get(srcKey))?"0":summaryData.getTotalTargetNullCountMap().get(srcKey)+"";
+                currentRow.createCell(lastIndex+6).setCellValue(targetNullCount);
             }
             rowNum++;
 

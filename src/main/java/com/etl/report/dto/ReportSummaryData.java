@@ -40,6 +40,32 @@ public class ReportSummaryData {
     HashMap<String,Integer >totalDiffCountMap = new HashMap<>();
     HashMap<String,Integer >totalSourceNullCountMap = new HashMap<>();
     HashMap<String,Integer >totalTargetNullCountMap = new HashMap<>();
+    public void sourceNullPlusOne(String key)
+    {
+        if(totalSourceNullCountMap.containsKey(key))
+        {
+            int newValue = this.totalSourceNullCountMap.get(key)+1;
+            this.totalSourceNullCountMap.put(key,newValue);
+
+        }else
+        {
+            this.totalSourceNullCountMap.put(key,1);
+        }
+
+    }
+    public void targetNullPlusOne(String key)
+    {
+        if(totalTargetNullCountMap.containsKey(key))
+        {
+            int newValue = this.totalTargetNullCountMap.get(key)+1;
+            this.totalTargetNullCountMap.put(key,newValue);
+
+        }else
+        {
+            this.totalTargetNullCountMap.put(key,1);
+        }
+
+    }
 
     public void passPlusOne(String key)
     {
