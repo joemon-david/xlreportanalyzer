@@ -2,7 +2,7 @@ package com.etl.report.utils.common;
 
 public class TypeIdentifier {
 
-    public enum DATA_TYPES {STRING,DOUBLE};
+    public enum DATA_TYPES {STRING,DOUBLE,LONG};
 
     public static DATA_TYPES getDataTypes(String data)
     {
@@ -21,8 +21,14 @@ public class TypeIdentifier {
 
     public static void main(String[] args) {
 
-        if (TypeIdentifier.getDataTypes("-468.5") == DATA_TYPES.DOUBLE)
-            System.out.println("The value is a Numeric Type");
+//        if (TypeIdentifier.getDataTypes("-468") == DATA_TYPES.DOUBLE)
+//            System.out.println("The value is a Numeric Type");
 
+        String tot = "8800";
+        Double total = 8800.0;
+
+        System.out.println(Double.parseDouble(tot));
+        System.out.println(Long.parseLong(tot));
+        System.out.println(Math.round(total));
     }
 }

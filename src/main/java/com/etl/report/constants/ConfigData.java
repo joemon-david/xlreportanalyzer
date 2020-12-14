@@ -37,9 +37,13 @@ public interface ConfigData {
     String COMPARE_COMP_POSTFIX="_C";
     String COMPARE_FINAL_RESULT_POSTFIX="_Final_Results";
     String COMPARE_DEVIATION_POSTFIX="_Deviation%";
-    String COMPARE_MATCH_COUNT_FINAL = "Match Count_Final";
-    String COMPARE_DIFF_COUNT_FINAL = "Diff Count_Final";
+    String COMPARE_MATCH_TRANS_COUNT_FINAL = "Match Trans Count_Final";
+    String COMPARE_DIFF_TRANS_COUNT_FINAL = "Diff Trans Count_Final";
     String COMPARE_SRC_COLUMN_NULL_COUNT = "SourceColumnNullCount";
     String COMPARE_TAR_COLUMN_NULL_COUNT = "TargetColumnNullCount";
+    String COMPARE_MATCH_COUNT_FINAL = "Match Count_Final";
+    String COMPARE_DIFF_COUNT_FINAL = "Diff Count_Final";
+    int COMPARE_MATCH_COUNT_COLUMN_INDEX=5;
+    int COMPARE_DIFF_COUNT_COLUMN_INDEX=7;
 
 }

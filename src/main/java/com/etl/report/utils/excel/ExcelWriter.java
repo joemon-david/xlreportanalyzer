@@ -3,6 +3,7 @@ package com.etl.report.utils.excel;
 import com.etl.report.constants.ConfigData;
 import com.etl.report.dto.ReportSummaryData;
 import com.etl.report.utils.common.CommonUtils;
+import com.etl.report.utils.common.TypeIdentifier;
 import com.etl.report.utils.dataobjects.DataExtractor;
 import com.monitorjbl.xlsx.StreamingReader;
 import org.apache.logging.log4j.LogManager;
@@ -111,18 +112,25 @@ public class ExcelWriter implements ConfigData {
                 currentRow.createCell(lastIndex+2).setCellValue(COMPARE_END_USER_ACCEPTED);
                 currentRow.getCell(lastIndex+2).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+2,5000);
-                currentRow.createCell(lastIndex+3).setCellValue(COMPARE_MATCH_COUNT_FINAL);
+                currentRow.createCell(lastIndex+3).setCellValue(COMPARE_MATCH_TRANS_COUNT_FINAL);
                 currentRow.getCell(lastIndex+3).setCellStyle(styles.get("header_bright_green"));
-                datatypeSheet.setColumnWidth(lastIndex+3,5000);
-                currentRow.createCell(lastIndex+4).setCellValue(COMPARE_DIFF_COUNT_FINAL);
+                datatypeSheet.setColumnWidth(lastIndex+3,6000);
+                currentRow.createCell(lastIndex+4).setCellValue(COMPARE_DIFF_TRANS_COUNT_FINAL);
                 currentRow.getCell(lastIndex+4).setCellStyle(styles.get("header_bright_green"));
-                datatypeSheet.setColumnWidth(lastIndex+4,5000);
+                datatypeSheet.setColumnWidth(lastIndex+4,6000);
                 currentRow.createCell(lastIndex+5).setCellValue(COMPARE_SRC_COLUMN_NULL_COUNT);
                 currentRow.getCell(lastIndex+5).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+5,5000);
                 currentRow.createCell(lastIndex+6).setCellValue(COMPARE_TAR_COLUMN_NULL_COUNT);
                 currentRow.getCell(lastIndex+6).setCellStyle(styles.get("header_bright_green"));
                 datatypeSheet.setColumnWidth(lastIndex+6,5000);
+
+                currentRow.createCell(lastIndex+7).setCellValue(COMPARE_MATCH_COUNT_FINAL);
+                currentRow.getCell(lastIndex+7).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+7,5000);
+                currentRow.createCell(lastIndex+8).setCellValue(COMPARE_DIFF_COUNT_FINAL);
+                currentRow.getCell(lastIndex+8).setCellStyle(styles.get("header_bright_green"));
+                datatypeSheet.setColumnWidth(lastIndex+8,5000);
 
             }else
             {
@@ -154,6 +162,30 @@ public class ExcelWriter implements ConfigData {
                 currentRow.createCell(lastIndex+5).setCellValue(srcNullCount);
                 String targetNullCount =(null == summaryData.getTotalTargetNullCountMap().get(srcKey))?"0":summaryData.getTotalTargetNullCountMap().get(srcKey)+"";
                 currentRow.createCell(lastIndex+6).setCellValue(targetNullCount);
+
+                // To extract the total number of matches exists on the report
+                String existing_total_match=helper.getCellValueAsString(currentRow.getCell(COMPARE_MATCH_COUNT_COLUMN_INDEX),evaluator);
+                Long exist_tot_match = (null!=existing_total_match && TypeIdentifier.getDataTypes(existing_total_match) == TypeIdentifier.DATA_TYPES.DOUBLE)?Long.parseLong(existing_total_match):0;
+
+                // To extract the total number of Difference exists on the report
+                String existing_total_diff=helper.getCellValueAsString(currentRow.getCell(COMPARE_DIFF_COUNT_COLUMN_INDEX),evaluator);
+                Long exist_tot_diff = (null!=existing_total_diff && TypeIdentifier.getDataTypes(existing_total_diff) == TypeIdentifier.DATA_TYPES.DOUBLE)?Long.parseLong(existing_total_diff):0;
+
+                /**
+                 * We may do some check on the existing total match and the total match after this analysis . The new match count
+                 * supposed to be greater than or equal to the existing match count due to Known Difference or applying Tolerance.
+                 * Right now we will be checking the diff values. After applying the tolerances the different count should be decresed
+                 * We can take that deviation and apply to the existing total value , so the formula assumed as follows
+                 * grand_total_match_count = existing_total_count + (existing_total_diff - total_diff_count)
+                 * grand_total_diff_count = total_diff_count
+                 */
+
+
+
+                long grandTotalMatchCount = exist_tot_match + (exist_tot_diff-totalDiffCount);
+                currentRow.createCell(lastIndex+7).setCellValue(grandTotalMatchCount);
+                long grandTotalDiffCount = totalDiffCount;
+                currentRow.createCell(lastIndex+8).setCellValue(grandTotalDiffCount);
             }
             rowNum++;
 
