@@ -26,6 +26,6 @@ jobs:
       run: ./gradlew check
     - name: Publish Spot Bug Results
       if: ${{ always() }}
-    - uses: jwgmeligmeyling/spotbugs-github-action@master
+      uses: jwgmeligmeyling/spotbugs-github-action@master
       with:
         path: '**/main.xml'
