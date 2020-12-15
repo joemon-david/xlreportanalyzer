@@ -69,12 +69,13 @@ public class ReportAnalyzer implements ConfigData {
             logger.debug("Completed Reading from Report File of "+reportData.size()+" records !!!!");
             LinkedHashMap<Integer, LinkedHashMap<String, String>> outputReportData = new LinkedHashMap<>();
             logger.debug("Beginning the analysis of each row on the sheet - "+COMPARE_REPORT_SHEET_NAME+"  ..........");
-            for(Integer rowNumber:reportData.keySet())
-            {
+            // Each Row will be analysed to add more info
+
+
+            for (Integer rowNumber : reportData.keySet()) {
                 LinkedHashMap<String, Object> existingData = reportData.get(rowNumber);
-                // Each Row will be analysed to add more info
-                LinkedHashMap<String, String> analyzedData = extractor.analyzeRowAndAddResult(existingData,srcTargetColumnMap,srcTransLogicMap,dataTypeMap);
-                outputReportData.put(rowNumber,analyzedData);
+                LinkedHashMap<String, String> analyzedData = extractor.analyzeRowAndAddResult(existingData, srcTargetColumnMap, srcTransLogicMap, dataTypeMap);
+                outputReportData.put(rowNumber, analyzedData);
             }
             logger.debug("Completed the analysis of the data and is ready for write into an excel file ");
             xlWriter.writeFullMatchesSheetToReport(reportFilePath,COMPARE_REPORT_OUTPUT_PATH,outputReportData,COMPARE_REPORT_SHEET_NAME_ADDED);

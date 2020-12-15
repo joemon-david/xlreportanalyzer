@@ -154,14 +154,6 @@ public class ExcelWriter implements ConfigData {
                 currentRow.createCell(lastIndex).setCellValue(checkNull(allowedTolerance));
                 currentRow.createCell(lastIndex+1).setCellValue(checkNull(isKnownDifferance));
                 currentRow.createCell(lastIndex+2).setCellValue(checkNull(endUserAccepted));
-                long totalMatchCount = (summaryData.getTotalMatchCountMap().containsKey(srcKey))?summaryData.getTotalMatchCountMap().get(srcKey):0;
-                currentRow.createCell(lastIndex+3).setCellValue(totalMatchCount);
-                long totalDiffCount = (summaryData.getTotalDiffCountMap().containsKey(srcKey))?summaryData.getTotalDiffCountMap().get(srcKey):0;
-                currentRow.createCell(lastIndex+4).setCellValue(totalDiffCount);
-                String srcNullCount = (null ==summaryData.getTotalSourceNullCountMap().get(srcKey))?"0":summaryData.getTotalSourceNullCountMap().get(srcKey)+"";
-                currentRow.createCell(lastIndex+5).setCellValue(srcNullCount);
-                String targetNullCount =(null == summaryData.getTotalTargetNullCountMap().get(srcKey))?"0":summaryData.getTotalTargetNullCountMap().get(srcKey)+"";
-                currentRow.createCell(lastIndex+6).setCellValue(targetNullCount);
 
                 // To extract the total number of matches exists on the report
                 String existing_total_match=helper.getCellValueAsString(currentRow.getCell(COMPARE_MATCH_COUNT_COLUMN_INDEX),evaluator);
@@ -170,6 +162,21 @@ public class ExcelWriter implements ConfigData {
                 // To extract the total number of Difference exists on the report
                 String existing_total_diff=helper.getCellValueAsString(currentRow.getCell(COMPARE_DIFF_COUNT_COLUMN_INDEX),evaluator);
                 Long exist_tot_diff = (null!=existing_total_diff && TypeIdentifier.getDataTypes(existing_total_diff) == TypeIdentifier.DATA_TYPES.DOUBLE)?Long.parseLong(existing_total_diff):0;
+
+                long totalDiffCount = (summaryData.getTotalDiffCountMap().containsKey(srcKey))?summaryData.getTotalDiffCountMap().get(srcKey):0;
+
+
+
+//                long totalMatchCount = (summaryData.getTotalMatchCountMap().containsKey(srcKey))?summaryData.getTotalMatchCountMap().get(srcKey):0;
+                long totalMatchCount = exist_tot_diff - totalDiffCount;
+                currentRow.createCell(lastIndex+3).setCellValue(totalMatchCount);
+
+                currentRow.createCell(lastIndex+4).setCellValue(totalDiffCount);
+                String srcNullCount = (null ==summaryData.getTotalSourceNullCountMap().get(srcKey))?"0":summaryData.getTotalSourceNullCountMap().get(srcKey)+"";
+                currentRow.createCell(lastIndex+5).setCellValue(srcNullCount);
+                String targetNullCount =(null == summaryData.getTotalTargetNullCountMap().get(srcKey))?"0":summaryData.getTotalTargetNullCountMap().get(srcKey)+"";
+                currentRow.createCell(lastIndex+6).setCellValue(targetNullCount);
+
 
                 /**
                  * We may do some check on the existing total match and the total match after this analysis . The new match count
