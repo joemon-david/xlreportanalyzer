@@ -74,7 +74,7 @@ public class ExcelHelper implements ConfigData {
     }
 
     public static void main(String[] args) throws IOException {
-        String inputFile ="Custom_Sec_In_S";
+        String inputFile ="Custom_SS";
         String prefix = "_S";
         String replaceW ="_FinalResult";
 
